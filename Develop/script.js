@@ -1,4 +1,11 @@
 // Assignment code here
+
+var lowerCase = "abcdefghijklmnopqrstuvwxyz"
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var numbers = "1234567890"
+var specialChar = "!#$%&()*+,-./:;<=>?@\^"
+var password = ""
+
 var generate = document.querySelector("#generate");
 function generatePassword() {
   console.log("button");
